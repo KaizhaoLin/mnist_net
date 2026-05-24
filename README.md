@@ -112,9 +112,3 @@ Model file used: saved_models/mnist_net_best.pth
 Predicting...
 -> The predicted digit is: 0
 ```
-
-## 备注
-
-- `data/` 目录由训练脚本自动下载生成，通常不需要提交到 GitHub。
-- `saved_models/` 中的权重文件较小，可以保留，方便直接运行预测。
-- 如果预测自己的图片，建议使用黑白或高对比度数字图片；脚本会自动转灰度、缩放到 `28x28`，并做反色处理。
